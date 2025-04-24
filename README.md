@@ -1,7 +1,5 @@
 # JobNexus: AI Career Advisor
 
-![JobNexus Banner](https://user-images.githubusercontent.com/placeholder/banner-jobnexus.png)
-
 ## 🚀 Overview
 **JobNexus** is an intelligent, user-friendly AI-powered career advisor and job matching platform for tech and digital professionals. It analyzes your skills, recommends actionable learning resources, and matches you to relevant job opportunities—all with a beautiful, interactive dashboard.
 
@@ -72,12 +70,6 @@
   - If the AI can’t find a resource or job, you’ll always see a helpful fallback (never an empty or useless message).
 - **Consistent Feedback:**
   - The Boss Agent validates all outputs for consistency and accuracy.
-
----
-
-## 📸 Screenshots
-![Skill Radar Example](https://user-images.githubusercontent.com/placeholder/radar-example.png)
-![Learning Path Example](https://user-images.githubusercontent.com/placeholder/learning-example.png)
 
 ---
 
