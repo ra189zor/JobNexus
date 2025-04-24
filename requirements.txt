@@ -1,0 +1,7 @@
+streamlit
+crewai
+python-dotenv
+langchain-openai
+plotly
+fuzzywuzzy
+python-Levenshtein

@@ -1,0 +1,23 @@
+**Goal:** Estimate standard baseline proficiency levels (0-100) for a given list of skills required for a specific tech role.
+
+**Context:**
+- Role: **{role}**
+- Skills List: **{skills_list}**
+
+**Instructions:**
+1.  For the specified **{role}**, consider the provided **{skills_list}**.
+2.  For each skill in the list, estimate a reasonable baseline proficiency level (on a scale of 0-100) expected for someone *competently performing* in this role.
+3.  Consider industry standards and the typical importance of each skill for the **{role}**. For instance, a core programming language might require a higher baseline (e.g., 70-80) than a secondary tool (e.g., 50-60).
+4.  Output the results as a simple mapping (e.g., dictionary or key-value pairs) where the key is the skill name and the value is the estimated baseline proficiency number.
+5.  Ensure every skill from the input **{skills_list}** is included in the output.
+6.  Provide *only* the skill-proficiency mapping.
+
+**Output Format Example (JSON object preferred):**
+```json
+{{
+  "Skill A": 75,
+  "Skill B": 80,
+  "Tool X": 60,
+  "Communication": 70,
+  ...
+}}

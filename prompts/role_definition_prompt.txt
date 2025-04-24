@@ -1,0 +1,31 @@
+**Goal:** Define the essential skills for a specific tech role.
+
+**Instructions:**
+1.  Analyze the provided tech role: **{role}**.
+2.  Identify and list the **core technical skills** absolutely necessary for this role.
+3.  Identify and list important **secondary technical skills** or **tools/platforms** commonly used or beneficial for this role.
+4.  Identify and list key **soft skills** relevant to this role.
+5.  Structure the output clearly, perhaps using categories like "Core Technical", "Secondary Technical/Tools", and "Soft Skills".
+6.  Focus on skills commonly expected in the industry for this role. Do not hallucinate niche or irrelevant skills.
+
+**Output Format Example (use clear headings or structure):**
+
+**Role:** {role}
+
+**Core Technical Skills:**
+- Skill A
+- Skill B
+- ...
+
+**Secondary Technical Skills/Tools:**
+- Tool X
+- Platform Y
+- Skill C
+- ...
+
+**Soft Skills:**
+- Communication
+- Problem-Solving
+- ...
+
+**Provide only the structured skill list for the role: {role}**

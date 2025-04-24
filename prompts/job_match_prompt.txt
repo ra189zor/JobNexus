@@ -1,0 +1,22 @@
+**Goal:** Generate a realistic-looking mock job posting for a specific tech role.
+
+**Role:** **{role}**
+**Optional Context (User Profile Summary):** {user_skills_summary}
+
+**Instructions:**
+1.  Create a fictional but plausible job posting for the tech role: **{role}**.
+2.  Include the following sections:
+    *   **Job Title:** (Matching the requested {role} or a common variation)
+    *   **Company:** (Invent a plausible tech company name, e.g., "Innovate Solutions", "Data Insights Co.", "CloudSphere Tech")
+    *   **Location:** (e.g., "Remote", "San Francisco, CA", "Hybrid - Austin, TX")
+    *   **Salary Range:** (Provide a realistic estimated range for the role, e.g., "$100,000 - $140,000 USD")
+    *   **Job Description:** (Brief overview of the role, responsibilities, and company culture)
+    *   **Key Responsibilities:** (Bulleted list of typical tasks)
+    *   **Required Qualifications:** (Essential skills, experience, education - aligned with the {role})
+    *   **Preferred Qualifications:** (Nice-to-have skills or experience)
+3.  Ensure the qualifications listed are consistent with industry expectations for the **{role}**.
+4.  If {user_skills_summary} is provided and not empty, subtly tailor some aspects of the description or qualifications to *potentially* align better with the user's profile, but maintain overall realism for the target role. If {user_skills_summary} is empty or irrelevant, generate a standard posting for the {role}.
+5.  Keep the tone professional and typical of job descriptions.
+6.  Do not invent unrealistic requirements or benefits.
+
+**Provide only the mock job posting details.**

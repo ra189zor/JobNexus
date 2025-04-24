@@ -1,0 +1,27 @@
+# prompts/course_prompt.txt (Updated)
+
+**Goal:** Find relevant, free, online learning resources (like tutorials, documentation, articles, or specific free course modules) for a specific technical skill.
+
+**Skill:** **{skill}**
+
+**Instructions:**
+1.  Identify high-quality, **free** online learning resources specifically for the skill: **{skill}**.
+2.  Focus on resources like:
+    *   Official documentation pages.
+    *   Well-regarded tutorials from reputable tech blogs or platforms (e.g., Smashing Magazine, CSS-Tricks, freeCodeCamp, university sites).
+    *   Specific, relevant articles or guides.
+    *   Free introductory chapters or modules if part of a larger course (clearly state if it's limited access).
+3.  Provide direct, valid URLs for each resource.
+4.  Aim for 2-4 quality resources. Prioritize official documentation if available.
+5.  Do NOT invent resources or provide broken links. If you genuinely cannot find good free resources after searching, state that clearly for this skill.
+6.  Format the output clearly, listing the resource name/description and its URL. Use simple bullet points.
+
+**Output Format Example:**
+
+**Skill:** {skill}
+
+- [Resource Name 1 - Type (e.g., Docs, Tutorial)]: [URL 1]
+- [Resource Name 2 - Type (e.g., Article)]: [URL 2]
+- [Resource Name 3 - Type (e.g., Free Module)]: [URL 3]
+
+**Provide only the structured list of free learning resources for the skill: {skill}**. If none found, state "No specific free resources found for {skill}."
